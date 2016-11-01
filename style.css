@@ -403,9 +403,9 @@ template {
   display: none; }
 
 button {
-  margin-left: 42%; }
-  button .passcode {
-    float: left; }
+  margin-left: 42%;
+  padding-left: none;
+  display: block; }
 
 li {
   border: 2px solid #92a0a4;

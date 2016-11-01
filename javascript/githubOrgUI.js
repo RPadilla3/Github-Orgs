@@ -1,7 +1,11 @@
 (function() {
     'use strict';
     window.github = window.github || {};
-    
-    console.log(window.github.data);
 
+    window.github.data = function data(data){
+      $(data).each(function pullInData(i) {
+          console.log('it works', data);
+        $('ul').append('<li><img src="' + data[i].avatar_url + "'/> </li>'")
+      })
+    };
 }());

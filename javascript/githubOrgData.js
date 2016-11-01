@@ -4,8 +4,7 @@
     window.github.data = [];
     $('.load')
         .on('click', function tokenPush() {
-            var myToken = $('#token').val()
-            console.log(myToken)
+            var myToken = $('#token').val();
             $.ajax({
                     url: 'https://api.github.com/users/lengstrom/orgs',
                     method: 'GET',
@@ -13,16 +12,15 @@
                     headers: {
                         Authorization: 'token ' + myToken //never Commit a token
                     }
-
                 })
                 .done(function handleLoad(data) {
-                    console.log('data passed', data)
-                    window.github.data.push(data);
+                    console.log('data passed', data);
+                    window.github.data(data);
                 })
                 .fail(function dataFail(xhr) {
                     console.log('data failed', xhr);
                 })
-        })
+        });
 
 
 
