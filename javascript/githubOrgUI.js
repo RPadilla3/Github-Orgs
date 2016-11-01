@@ -1,6 +1,6 @@
 (function() {
-
-  'use strict';
-  console.log('world');
+    'use strict';
+    window.github = window.github || {};
+    console.log(window.github.data);
 
 }());

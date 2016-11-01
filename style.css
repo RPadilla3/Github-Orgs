@@ -402,10 +402,20 @@ template {
 [hidden] {
   display: none; }
 
+button {
+  margin-left: 42%; }
+
 li {
   border: 2px solid #92a0a4;
   margin-top: 5%;
   padding: 5%;
-  list-style: none; }
+  list-style: none;
+  text-align: center; }
+
+nav {
+  width: 70%; }
+
+ul {
+  padding-left: 30%; }
 
 /*# sourceMappingURL=style.css.map */
