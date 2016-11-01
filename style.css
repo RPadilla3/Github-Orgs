@@ -404,6 +404,8 @@ template {
 
 button {
   margin-left: 42%; }
+  button .passcode {
+    float: left; }
 
 li {
   border: 2px solid #92a0a4;
