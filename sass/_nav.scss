@@ -6,11 +6,12 @@ li {
   list-style: none;
   text-align: center;
   padding-bottom: none;
-
+  background-color: #e0d9dc;
 
   p {
     font-size: 2.5em;
     font-family: monospace;
+    padding-right: 25%;
   }
 
 }
@@ -27,5 +28,6 @@ ul {
 img {
   width: 100px;
   float: left;
+  border-radius: 3%;
 
 }
