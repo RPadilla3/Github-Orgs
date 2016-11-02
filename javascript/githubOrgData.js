@@ -19,7 +19,7 @@
                 })
                 .fail(function dataFail(xhr) {
                     console.log('data failed', xhr);
-                })
+                });
         });
 
 
