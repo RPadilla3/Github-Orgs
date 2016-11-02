@@ -423,9 +423,11 @@ li {
   margin-top: 5%;
   padding: 5%;
   list-style: none;
-  text-align: center; }
+  text-align: center;
+  padding-bottom: none; }
   li p {
-    font-family: cursive; }
+    font-size: 2.5em;
+    font-family: monospace; }
 
 nav {
   width: 70%; }
