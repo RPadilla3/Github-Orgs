@@ -6,7 +6,7 @@
         .on('click', function tokenPush() {
             var myToken = $('#token').val();
             $.ajax({
-                    url: 'https://api.github.com/users/lengstrom/orgs',
+                    url: 'https://api.github.com/users/jisaacks/orgs',
                     method: 'GET',
                     dataType: 'json',
                     headers: {

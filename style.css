@@ -403,21 +403,39 @@ template {
   display: none; }
 
 button {
-  margin-left: 42%;
-  padding-left: none;
-  display: block; }
+  display: block;
+  font-size: 1.1em;
+  font-weight: bold;
+  padding: 10px 15px;
+  color: #d3d9cf;
+  background-color: #1e70b4;
+  border: 0 none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 45%; }
+
+h1 {
+  text-align: center; }
 
 li {
   border: 2px solid #92a0a4;
+  border-radius: 3px;
   margin-top: 5%;
   padding: 5%;
   list-style: none;
   text-align: center; }
+  li p {
+    font-family: cursive; }
 
 nav {
   width: 70%; }
 
 ul {
-  padding-left: 30%; }
+  padding-left: 45%;
+  clear: both; }
+
+img {
+  width: 100px;
+  float: left; }
 
 /*# sourceMappingURL=style.css.map */
